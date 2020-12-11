@@ -17,7 +17,7 @@ android {
         }
         buildFeatures {
         // 视图绑定 AS 4.0 后改成这样
-             viewBinding = true
+             viewBinding true
         }
     }
 
