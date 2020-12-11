@@ -14,8 +14,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    viewBinding {
-        enabled = true
+    buildFeatures {
+        // 视图绑定 AS 4.0 后改成这样
+        viewBinding = true
     }
 
     buildTypes {
